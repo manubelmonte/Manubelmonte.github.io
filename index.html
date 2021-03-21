@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Creamos una barra de navegación con fondo oscuro.
+    La clase "navbar-expand-lg" sirve para que el menú se vea compacto
+    en un móvil pero completo en PC -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- Ponemos título a la barra de navegación -->
+        <a class="navbar-brand" href="#">
+            <!-- Añadimos imagen de github a la barra de menú -->
+            <img src="https://pm1.narvii.com/7439/1979bff6f5944ac30953e75dcf1136176971714dr1-750-737v2_hq.jpg"
+                class="d-inline-block align-top rounded-circle" height="30" width="30" />
+            Manubelmonte
+        </a>
+        <!-- botón para desplegar el menú en modo responsivo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#entradas_menu">
+            <!-- Esto hace que se vean las tres rayas del botón-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Las entradas del menú propiamente dichas, 
+        fíjate que el ID coincida con el data-target del 
+        botón de arriba -->
+        <div class="collapse navbar-collapse" id="entradas_menu">
+            <!-- Los menús se hacen con listas -->
+            <ul class="navbar-nav">
+                <!-- Cada elemento de la lista es una entrada del menú -->
+                <li class="nav-item">
+                    <!-- El enlace con el título al que lleva el menú -->
+                    <a class="nav-link" href="#" id="menu_inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="menu_desarrollo_web">Web</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="menu_desarrollo_java">Java</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="menu_base_de_datos">Bases de datos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="menu_contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="panel_inicio" class="panel">
+            <h3>Desarrollador Freelance</h3>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/CSS3_and_HTML5_logos_and_wordmarks.svg" alt="Desarrollo Web">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo Web</h5>
+                            <p class="card-text">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>JavaScript Vanilla</li>
+                                <li>CSS3</li>
+                                <li>WebApps</li>
+                            </ul>
+                            </p>
+                            <a href="https://Manubelmonte.github.io" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Java.jpg" alt="Programación">
+                        <div class="card-body">
+                            <h5 class="card-title">Programación</h5>
+                            <p class="card-text">
+                            <ol>
+                                <li>Lenguajes de Programación
+                                    <ol type="a">
+                                        <li>Bash</li>
+                                        <li>PowerShell</li>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>JavaScript</li>
+                                        <li>C (Arduino)</li>
+                                    </ol>
+                                </li>
+                                <li>Programación lado cliente (frontend)
+                                    <ol type="a">
+                                        <li>React </li>
+                                        <li>Angular</li>
+                                        <li>Android</li>
+                                    </ol>
+                                </li>
+                                <li>Programación lado servidor (backend)
+                                    <ol type="a">
+                                        <li>NodeJS</li>
+                                        <li>Spring Java</li>
+                                        <li>Java Servlets</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            </p>
+                            <a href="#" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/database.jpeg" alt="Bases de datos">
+                        <div class="card-body">
+                            <h5 class="card-title">Bases de datos</h5>
+                            <p class="card-text">
+                            <ol>
+                                <li>SQL
+                                    <ol type="i">
+                                        <li>Oracle</li>
+                                        <li>MySQL</li>
+                                    </ol>
+                                </li>
+                                <li>NoSQL
+                                    <ol type="i">
+                                        <li>Redis </li>
+                                        <li>Mongo DB</li>
+                                        <li>Firebase</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            </p>
+                            <a href="https://Manubelmonte.github.io" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="panel_desarrollo_web" class="panel">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://disenowebakus.net/imagenes/articulos/html5.jpg" alt="HTML5">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML5</h5>
+                            <p class="card-text">
+                                HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png" alt="CSS">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">
+                                Es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://tutorialesenpdf.com/wp-content/uploads/2017/01/Javascript.jpg" alt="JavaScript">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">
+                                Es el único lenguaje de programación que funciona en los navegadores de forma nativa,se utiliza de complemento para HTML y CSS
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="panel_desarrollo_java" class="panel">
+            <h3>Programas java</h3>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://blog.educacionit.com/wp-content/uploads/2018/09/shutterstock-10338536170938-620x354-01-750x410.jpg" alt="Lenguajes de programación">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenguajes de programación</h5>
+                            <p class="card-text">
+                                <ol type="a">
+                                    <li>Bash</li>
+                                    <li>PowerShell</li>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>C (Arduino)</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://1.bp.blogspot.com/-q23NCGYCM0w/XThp7SW9oFI/AAAAAAAAAEc/sLpg-QCCb8ECW7uq9DFX58BYml62MUe-gCLcBGAs/w1200-h630-p-k-no-nu/frontend-vs-backend-web-development.jpg" alt="Programación lado cliente">
+                        <div class="card-body">
+                            <h5 class="card-title">Programación lado cliente</h5>
+                            <p class="card-text">
+                            <ol>
+                                    <ol type="a">
+                                        <li>React </li>
+                                        <li>Angular</li>
+                                        <li>Android</li>
+                                    </ol>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://1.bp.blogspot.com/-q23NCGYCM0w/XThp7SW9oFI/AAAAAAAAAEc/sLpg-QCCb8ECW7uq9DFX58BYml62MUe-gCLcBGAs/w1200-h630-p-k-no-nu/frontend-vs-backend-web-development.jpg" alt="Programación lado servidor">
+                        <div class="card-body">
+                            <h5 class="card-title">Programación lado servidor</h5>
+                            <p class="card-text">
+                                <ol type="a">
+                                    <li>NodeJS</li>
+                                    <li>Spring Java</li>
+                                    <li>Java Servlets</li>
+                                </ol>
+                                </li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="panel_base_de_datos" class="panel">
+            <h3>Base de datos</h3>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTExMVFhUXGBUXFRcXFxcYFxgXGBUXFxcVFxgaHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0mICUvLS0tNTAuNTUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJkBSQMBIgACEQEDEQH/xAAbAAAABwEAAAAAAAAAAAAAAAAAAQIDBQYHBP/EAEgQAAEDAgMEBgYFCgUDBQAAAAEAAgMRIQQSMQUGQVETImFxgbEyUnKRocEHI0KS0RQzQ1NigqKy0vEWJDTC8BXh4mNzk6Oz/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAMEBQECBv/EADYRAAEDAgEJBQgDAQEBAAAAAAEAAgMEEZEFEiExQYGhsdFRYXHB8BMVIjI0QlLhFDPxJIIj/9oADAMBAAIRAxEAPwDbXOFDdc8YuEGxmuife8EEAoiEtx/zmmoLG9kImkGpsFCby7zMgGRlHy8vst7XH5eS9sY55zWi5XiSRsbc5xsFOYuRobmLgANSSAB3lV7E74YeKobmkP7I6v3j8qqi7Q2jLOayPLuQ+yO4aBci1IsnN1vN/BZMuU3fYLDv6f6rRjN95nnqRtZ31effYfBRs28mKd+mcB+zRv8AKAUjCbv4mTSJwHN/UH8Vz4KWg3GmPpSMHs1d+Cl/5Yvx59VD/wBkv5cugVfkx8rvSlee9zj81zueTqSe8q8Q7ix/bndXjRob5kp4bjw+vKfFn9KCtpxq5Lv8Gpdr4lUAFPMxUg0e4dznD5q+/wCCcL68v3mf0rnduLHwkeO8NPyC5/OgOu+CfwJxqtiqpBtvEM9Gd/i4u+DqqSg3yxQs4teP2m0PvbRd0+4h+xO08gWEfEE+SjcVujimXyB47HDyNCu+0pZNeby46Fz2dZH+WN+vJTez9946/Wxub2tOYd9LHzVjw+0opwDE9r+YHpDvabhZPPA5hyva5p5OBB+KTG8tIc0kEaEGhHcRovD8nxuF2aOI68V7jyjK02eL8D63LZoLVrZJnubXsqNsbe9wIZiOs3QSAdYd4HpDt171ecNK3KDUUNwQbEEWI7FlzQPiNnDotaGoZMLtKciNBdMSi5SpWkmouE4x4AAJUSmSmOFBdcwaa6I3Rkk2XQZBzREJHChumIRQj/nBBjCCCQnZHAiguURCc1FkiCxvZCJtDU2SpjmFroiKe9KX1QgNAa2Qg6ta2RTDMbXREU4qbJ2I0AqiidQUNk3K0k1FwiJMguV0tcKapLXAAAlMGM8kRExpqLcl0yuFCiLwRqmY2EEEhEQhFDdOT3FuaErgRQXKTEKGpsiIYe1a2Rz3pS6EvWpS6OHq1rZEQgNBe10icVNkcoqai6XG4AUNkRKicKBKzjmFzSMJJIFknozyRE+ZQbJtsZBqdAjEJF7JbpQbDiiKL3l2qIMO57fSNGs9o8fAAnwWVvcSSSSSTUk6knUlXn6QmERRe0f5SqPGRUVFRUVHMVuFtZPYBFnbSTwWFlJ5MubsA5qf3f3WfiAHvJZHw9Zw5troO0+5XjZmyYcP6MYB9Y9Zx59bVdGCmYWNewgscBly6U5dnKief19OHNZs9TJKdOgdnValPSxxDRpPb0RSDNcJUbg0UOqJjslj8ETmZrhV1ZRPYSajRONkAFDwRCQNseCSYib2vdESeiPJOukBFBxQ6YaXSBERe1roiJjCDU6Jb3hwoNUDKHWHFJawtuURNy4drgRI1rmng4Bw9yq+2dzWPq7DnK71DXKe4m7fiO5W1zs9h33QZ1NePJSRSvjN2lRSwMlFnj1461jc8LmOLXAtcDQg6gq1bjbTdmOHcagguj7CLub3EVPgea5t+8RG/EDJ6TW5XntqaDvA/DguDdZ1MXCe3zaQtl//ANqclw2X3+uBWHHeGpzWnbbxB9Yhamx4aKHVIfGSajRG+MuuEoShtjwWEvoUpsgFuSZER5JRiJva6WZhpdEQdICKDUptjC01OiMREXtZKdIHWGpREJHhwoNUUYy3KDWZblB5z2HxREJetpwRxHLYomdTXjyQcM9x8URFI0uNRolMeGih1Qa/LYpLoy644oiJ0ZJqOKdEwRCUC3JI6E62REkREXonHyAig1RmUG17pDYy254IiDGFpqdEqR2YUCDpA6wRMblue6yIhEMuqEvW04IOOfThzQacmvHkiI43ZRQpMjS41GiD257juulNflsURBkgAodUrp28/gU26MuuOKL8nPYiJfTVtTVF0VL8kfQ0vXRF02a1NURVP6RJKxx+07yVEV7+kSOkcftO8lSMNHme1umZzW17yB81uUP9A3rAyh9Qdy7tkbalw56hq0mpYfRPb2HtHxV02XvdA+z6xuPA+j4OFvfRVXbG608FSB0jODmC/i3UfEdqg118ENQM4Yjz/eK8sqJ6Y5hwPl+sFsjHiUZmuBHMGo94Sw/LZY5BO5hqxzmnm0kH4KSh3lxTf0pd7Qa74kV+KqOyc77XAq6zKjfvad3oLUTFmvzQ6WlqaWWfw78Yhti2Ij2XA/B3yTn+N5OMTfAuCh/gTdgxCnGUIO04FXzoONUOmramtveqQd/ZP1LPvH8FzO31m+zHGO8OP+4LgoZ+wYhPeEHacCtA6LLfkgX5rLN8Rvhi32ztb7LB/uqorE7Rmk9OVzhyLjT3aKVuTpD8xAUTspxj5Wk4DzWlYzbuHw9c0rS7TK3rO9w08aKp7b3xkl6sQ6NvrVq4/JvhftVXXVgNmyzGkbC7t0aO9xsFbZRRR/E7T46sP9VOSuml+Fui/ZrxXKpTdgVxcPtfIobb2OcN0Yc4Oc4EmmgoQKA8UN2DTFw+18ip3vD4i4HRY8iqzGFkrWkabjmFqmfLZEYs1+aHR5r6IdLltTRfOr6dDpqWppZDoONUOhreut0DiOxER9LW1NUQjy35KLn25hYzedpI4Nq7w6tU0d7cIbGWn7kn9KkEMh0hpwURmjGtwxHVTJfmsgG5L6qFbvTgxcTV/ck/pXds/acWKB6N1Q03NHC/K4C46KRouWkbj0XWzRuNmuBPcQus9fsp8/7IwcltUD1O2vy/ugBnvovCkQLM99EYfltyTcs4jBqQALkk0A7yVC4verCNP5wuPJjSR77A+9e2Ruf8oJXh8jGfMQFO9DW9dUfTUtRVxm++H0pJ35R8iuzBbewspo2YAng4FhryGalfBenQStFy0rw2ohcbBwxUt0NL10Q6XNamqHTVtTX5oxFlvXRRKZEI8t0Cc9tOKS+aoNbClSe66hm71YMXE9f3JP6V7bG9/wAoJXh8jGfMQPEgc1NgZO2qBGfsouHZ+1ocSS2N9S2hNnDW3EDku4nJ21XktLTYhda4OF2m4QDslteKBZmugG576cEM+W2q4vSPpMtuSH5R2IdFmvXVF+T9qIiExNrJRhAveyMxAXTbZCTQ6FEVT+kKQmOOvrO8lTtnfnY/ab5hXT6RWARxU9Z3kqRhZA17XHQEE9wIJW3RfT4rArjapwWxNOfXhyXBtHY8EnpxtcT9rR33m0K7GytLQ9hBDrgi4INwlx9bXgsVpLTcLecA4WOkKqTbjRPqY5XM7CA8fI/FRWJ3Jnaeq9jvvNPkfNaBIctgjjYHCp1VltbM37r+Pq6quoYHfbbw9WWZP3SxY0iqOx7PmUw7d7FD9Cf4T5Fak+Qg0GiW2MEVPFSjKMvYPW9QnJkXafW5ZWN3MX+od8PxRx7s4o/oT4uYP9y07pSnXRgCo4LvvGTsHHquDJkXaeHRZzFuVijd2Rve6p/hBUhg9xqn6ybwa35k/JXJkhJodEt7Q0VGqjdXTHbbcpW5PgGy/iVC4XdbDQ0OTOechzfw2HwUvE0EUoABoBYI43ZjQ96OQZdOKqve55u43VpkbWCzRbwVH+kVlJIe538wUJuwK4uH2vkVJ7/YsPmY0GpY05uwuNad9B8VGbsn/NQ+18itmH6XT2HzWFOb1ej8h5LUnyFth8UoRB1zW6NjA4VOqbfIQaDRYi+gR9KRa1rLON6dtumkdG0kRNJaAPtEGhc7nfQLSxGDdY3jYy2R7TqCQfBxC0MnMa55J2alm5Te4Ma0aidKZQUvuxgoppwyU2yuIFaZnClG17qnwV/w+x4AQBDFT2QT7zdXZ6xsTs0gkqhT0Tpm5wIAWUq8/R66kcpHrNH8KsU2xsPSvQxfcb+CVs/ARR1DGNYDchopU6KlUVrZYy0AjUr9NQuhlDyQRpXSzr68OXb/AGUXt7bbMI31nu9FvE9p5NXdtDEthY6Q2a0EntpoB2mtPFZRtDHPnkdI89Z3uA4NHYFHSU3tXXdqHFS1tV7Ftm6zw70vae1JcQ7NK6vICwb2NHDzXGnsHhXyvDGCrjoPmeQV/wBj7nQMaDKOlfxrUNHYBx8fgtSWeOAAHcAsiKnlqHE4krOkFq0uycPdvQRU9hvnSqrm8G5wa0yYethUx625sJvXsPhyUMdfG42OhTS5OkY240+uKhdh7wy4cgEl8fFhOnsnh3aea0bBY5s7GuYQWu4jXtB5ELIFYty9qmKboyepIaDsd9k+OniOS5WUoc0vaNI4/teqGrLXBjjoOru7Ny0HGMDY3keq7yWNt0Ww4iQljgfVd/KVjzdFHk3U7d5qTKutm/yVv+jt9JJqcmeZV5aM+vDkqP8ARywGSavJnmVeJOrpxVWu/vO7kFcyf9ON/MoOdksO+6NrM1z8EI25rnuSXvLTQaKoriDpC2w4Ivyg9iWyMEVOqV0LURMNkPNPvYACQEbmihsFzxuJIuiKqfSA8mOOvrO8lR1fvpHH1cXtu8lRMPHmc1taZnNbXlUgVW5Q/wBA3rAyhpqDuUpsPeGXDdUdeOt2O4cy0/ZPw7FdsBvPh5aAP6N3Fr7e52h96o+19358OTnbmZwe27fHi3xUUj6aGcZ4xHnsXI6qanOYcD5bea2iGjhU35JErqGgsFkWEx8sX5uRzOxriB7tFLYfe/FN1cx/tsHm2ipvydIPlIPDqOKvNynGfmBHHoeC0tjARU6ppzyCRVUePfmX7UTT7LnN/FdLd/RS+G/+z/wURop/x4jqphXwH7uB6K7CMU0TDZCSBVU479/+if8A5P8AxSZd/HfZw7R2l5Pk0Lgop/x4jqhr4Py4Horw9gAqNU3G6pobhZ/NvriToGN8CfM0+CjMVt3EyelM6nJtGD4AKVuT5TrICjdlKIagT671pW0tqQwDryNaeVaup7IuqhtjfNzgWwAtHru9L90aDvNfBVIp7CYR8rssbHOPYNO86DxVuOhij+J2nx0D1vVKXKEsnwtFvDScdeCacSTUmpNyTqTzKlN1x/m4fa+RTe1tkvw+QPIzPBNBelDSleJSt2f9VD3/ACKsPeHROIOix5FVY2FkrWuFjccwtSkcQaCwTjGgipCOIVF7pmRxBN186vp0HSGpFVQ9/NlGOXpmjqSa9jgPmBX3rQ2NFBYKPxmHbKwxvFWusR5EciFPTzGF+diq9TAJo83DxWStJBqLEXBGoPMK7bu72AgRz0DtGy6A9juR7dO5V3b+w5MK+hvGT1H8+w8nKKW0+OOoZfA+uIxWFHLLTPI1HaPXA4FbLG7MaG4S5eqLWWd7t7zOhpHISYuB+0zu5t7PdyWg4Z4deuYEVBrUEHQhYk0DoXWdit6nqGTNu3eFVN/8WREyOvpuJPcwae8t9yoquH0kfnIRwyu/mH/ZU4rYoWgQtttvzt5LEr3EzuvstyWibibKDIemcOvJp2NGg8dfcrFI4g0Gi5sE3LFG1psI2gU9kLuiAIBN1iyvL3lxW7DGI4w0bETWAipCZMh5oSOIJuulrRTQKNSrNd99liGfM0UZKC4DgHA9YD3g+KroJFxYi4Parzv/AHijPHMfiL+QVGW/RvLomkr5ytjDJnAeOK10TB+HEoFM8Yd95tfmshatO2C4nBR1/VO+GYBZi3RV6BuaZB2Eeas5RJcIydoJ5K3fR64h81OTPMq9xdbW6o/0bD6ybuZ5lXfEWpS3cqdd/ed3IK9k/wCnG/mUUpymgslRNBFTcoQCove/FImNDayqK4hI8g0GiT0p5p+NoIFUvIOQRFyNBqF0yEUKDpBTVMMYQQSERVLf8fVx+0fJVHZ/52P2m+YVz+kZwMcVD9p3kqTg5A2RjjoCCe4EErbovp8Vg1x/6cFsMAuaqJ2nu7hpTUxgE1q5vVPjSx8QpVzw8AtNQbgi9joUcFq1ssVjnNN2my3Hta8WcLhU6fcQG8c1Oxza/EU8lFYjc7FN0DX+y7+oBaLKKm10qJwAobK22umGs38R/iqOyfA7ZbwKyyTd3FDWB3hQ+RTDtj4gfoZfuPPyWrSNJJICfa8AC6lGUn7Wjj1UXuyPY48FkA2TP+ol+4/8E8zYOJOkD/FpHmtRyGuhT7ngg3T3k/8AELnuuP8AI8FmEW6eLd+jDfaezyBJUlhdxpCfrJQ0fsgu86K7xtIIJCdkcCKC6jdXzHVYblI3J0I13O/pZVzDbnYaMAnNKf2jb7rafGqncFA1gytaGjgAAB7kuIUN7I570pdVXyPf8xurccTI/kACpH0kH6yHuf8AzBQm63+rg9r5FSe/8oMzGg3aDmHLMagd9BXxCit2h/moe/5FbMOil3HzWJP9Z/6b5LUZhdPxEUCTG4AUNk1I0kkgLDW+kvBqfFdZIokNeABdRn/UoA4gyxgg0IL2ggg0IIJ1XQCdS4SBrT82GbICx7czTYgiyoe8u7LsPV7Kvi5/aZ2O5jt9/boJx8RBpIw9z2/iuKfaWHbXpJY6UIIzNNQRcZRcqxTzSRO+EXG0dqrVMEczfiNjsPYspV03F2oXB2Hca5evH3V6zfeQR3lVDF5Okf0dcmZ2SuuWppXwopnccH8sYeADye7IR5kLWqmh8Jv2X81jUjyydtu22Oj9jcpj6QMKSyKT1SWn94VH8p96pK1zbGDGIidHwIN9aGxafAhZRi8M6J7o3ijmmhH/ADhxUOT5QWZm0ctanyjEWyZ+w8wtK3O2gJcM0V60dGOHcOqfEU+KkcbM1gc9xo0UqeA0CyvZe0X4d+dh7HA6OHIq9bQ2i3EbOkkALatIodQQ8A94VWopSyQH7ScLq3TVgfEQfmaMbDWpBm8mEoPr2fH8F0xSB4DmmrXXBGhB0KyBXpu9cUGFiYzryiNgpQ5WnKB1jxpyHwXZ6HMt7O5JXmnyhnXMlgAFx/SHjw6VkIPoAud7TqUHgBX95VApyaUvcXONXEkkniSpTdjZhxE7RTqNu/uGjfE27qrSY1sEWnYPWJWY9zqibRrOr13BaFhYOjwjWHVsQB78t/jVZK1bDO05XW+y7+UrHm6Knk4k55Pd5q7lMAFgHYfJW36Pvzkvc3zKvkFq1WT7D2o7DSiQCooWubzaaVFeBsD4K7DfDCvAJc5p4gsJp92qirYJHS5zRcG2rwspqGpjbFmONiL6+832qwT3NuSchNrqO2RtiGfMI31y0J6rm0rp6QFdCuyVtTUXWe5pabEWK0Wua4XabhFKLlIynkV0MeAACUvpBzC4vS5xERwTr3gig1QMwNkhsZFzwRFUvpBYRHHX1j5KjK+fSI8GOKnrO8lRoY8zmt9Yge80W5Q/0DxK+fyh/edymt395pMN1SM8fqk3b7J+Rt3K74LbsGIpkeA71HdV3uOvhVZ1tPZM0B+sYacHC4Pjw7jQrgXJKSKb427do1Yf4ux1c0BzHDVsPrqtojOWxskyNLjUXCyfC7Ynj9CVwHInMPc6oUxht9sQyzmseO0EH4GnwVN+T5BqIPDmrzMpxH5gRx5LQ2SACh1TToyTUDVU1u/NT1oPc/8AFq62b+RUFYn+BaoTRz/jyUwrqc/dwPRW3pRz80y2Ii5Giqh32i/Vv94/FCbf5tDlgd4vA8gU/hz/AI8uq6a2AfdzVvfICKDVJjaWmp0VDk33l+xExveXO/BR+L3pxUljKWjk0BvxF/ipG0Ep12G/oonZRhGq53dbLR9oY2Njave1o/aNPdXXwVR2pvnQFuHFz+kcNPZafn7lTpHlxq4knmTU+8o4IXPcGsaXOOgaCT7grkVBGzS835KlLlGR+hgtxPrcikkLiXOJJJqSbkk8SVJ7rn/Nw+18imdqbJkw+TpQAXgkNBqQAQL0tXuTu7Iriofa+RVl7muiJbqseRVSNpbK0O13HMLUZGFxqNE4yQAUOqJsgaKFJdGTccV86vp0l0RN6LJ9t/6ib/3JP53LXRKBbkq1PuZE97nl8lXOc40LadYkmlu1XaKdkRJcqNdA+ZoDVnVEa0D/AAVhjo6avez+lG3cjDi7jKR7Tfk1X/eEPacFne7Zu7FZ+1pJAAJJsALknkFoO6OwjC0vePrXgDL6jdad5NK9wUrs/Y2Hh/NRgO9Y1LvvGpHgpBoyXKo1NZ7QZrRYcSr9JQ+yOe/SeXVCLq62qoPebYDcUMzKCRooHcD+y7s7eCnH9fTggw5bFU2Pcx2c06VdkjbI3NcNCx/G4OSFxZI0tcOB8wdCO0K14Fh/6S48Ot/+ituOwTJhR7Gubydw7QdR4KJ2xg2QYGWJlaAE0Jrq8HXxWg6rEoa0ixzh4LObRGEvcDcZrh39NizZBBW3d7daKWNksj3kOqcjQBoSLu1OnCi0ZZmxNznLLhhfK7NYq3s7ASTvDI21PE8AObjwC03YuyRhmBo73utVx593ILowWz2wtDY2ta0XoOPaTqT3rrdKDYcVj1NWZtA0BblLRiH4ibu5IPeHCg1WU7xbKdhpi0jqGpjPAtrp3jT+61NrC01OiY2hhI525HsDhrfh2gi4PcvNNUexdfYda9VdN7dlto1LIEFob9ysMLkyDkA4fNqL/BOHPoul8XN/pWl/Ph78Fl+7p+7H9KN+jthJnpyj83q8MeGih1UXsXYsWELsheS/LWpBsK0pQDmVJPYXXCy6mQSSFzdWjkFrUsbo4gx2vTzJRPYSajRJ6F3LyTokDbHgj6cdqgVhI6Ei9dEoy1tzRdNW1NUOhy3roiKpfSHHSOL2neSpuzvzsftN8wrr9IVXQsNLB9/EGnkqNhpMrg6lcpDqdxBp8Ft0WmC3isGu0VFz3LYnsArmAINqKFx262GmqWs6N3NhoPu+j8FKYPFtnYHsNWm4PyPIhP8AodtVjMc+M/CbFbb2MkHxAEKi43cZ7T9XK13Y4FvxFVGS7qYtukWYc2uafgSD8FpuXPfTghny21VttfMNdju6Km7J0J1XG/rdZLLsfEN1gkH7jj5BMnBSDWN33Xfgtg6PNetKodNS1NLKX3k78Qovdbdjj6wWPDCv9R3uP4J1mzJzpDIf3H/gtd6HjVF01bU1t7095O/EYoMlt2uKy2Hd3FO0hd45W/zEKSh3IxBu9zGDvLj7gKfFaB0WW9dEM+a2ijdlCU6rD13qRuTYRrud/RVfAbkwj03veeXot9wv8VYcJg44BRjGtB9UU954p/LkvrwQrn7KeKqyTPk+ck+sFbjhjj+RoHrFUb6RX1kg7nfzBQu7Bpi4fa+RXdvxjWSThrDm6MFpPDMTUgd1lx7pwl2LhA4Ek9waStiIFtLp/E+axJSHVej8h5LUTHmuj6TLbki6TLbVDos166rDX0CLoSb11uldONKIumpamlkOg41REQhpfklGTNbmi6atqaodHlvWtERAMy3KBdnsLIZ89tEMuS+qIiHU1vX5f3R0z3FkPT7KfP8AshXJbVERh+SxXHtPAdPE9mbKHilaVIoRw8F15M99EOky2pWn910Eg3C4QCLFU124zB+nd9wf1Kz7K2b0MTIw7MGg3IpWpJ08V19FW9dUOnpailknkkFnG6hip44jdgtj5o+nBtTVEIst+SHQ0vXS6HS5rU1UKnR581kQbkub8EOjy31QzZ7acURAnPpaiAOTW9UKZO2qFM/ZREQLc9xbgjD8tkWbJbXihkzX0REDFmvzRfk55o+ly2pWiH5R2fFER9CBe6SJCbc0QmJslujAFRwRFybW2c2WJ8bq0cNeRrZ3gVlWPwT4XmN4oR7iODhzBWvMeXGh0XHtfZMUzMr215H7Te0H/gVulqvYmx1HgqVXSe2Fx8w4rNNlbWlwzs0bqA+k03a7vHzF1cdn75QyUEwMR5jrN94uPd4qA2nulPHUxjpW/s+kB2t4+FVX3NIJBBBGoNiO8LSdFBU/ENJ7te/9rLbNPSnNOjuOpbBh8YxwrE9rxzBB8k+1ma5WMNcQag0PMWKkcPt/Ex+jO7xOb+aqquyaftdj+lcZlQfc3D9rVHSFthwShCDe97rNmb34oauY7vYP9tF0N35xI+zH9139ShOT5u7FTjKMPfgr/wBMdLJRhAve11nx32m/Vxe5/wDUkyb7Yo+oO5h+bk/gTd2KHKMHfgtBbIXWPFHIAwZq6c9Fl0u8uKd+mI9kNb8QKqPxGKfJ6b3P9pxd5lSNya4/M4c+iidlNn2tO+37WkY/efDssX5yOEfWNe/0R71Utr71yygtj+qYbGhq4jtdw7h7yq8pDZuxJ8Qfq4zT1j1W+86+FVbZSQwjOdp7z6sqUlZNMc1ujuGvqo9X7c3YzoAZZG0keKNadWs7eRNBbhQJ/Y268eGIe8iSTUEjqtP7I59p+CsbG5rlVKusEgzGatvertHQmM579ewdiDY81ykmUttyQe8tNBoltjBFTxWctNARA3ve6R0x0siMpFuSdMIREkwgXvZJEmax4omyk2PFLcwNFRqiIOZluETTnsfgiY4uNClSDLcIiS7qacefZ/dG0Z7n4IR9bXghIctgiIOflsEbYw654oMZmFSkveWmg0REDKRbkldCDe6DYwRU8UgzHRERiYm1rpRiDbjgjMQF+SbbISaFERtkzWKNzclx3XRvYGio1SWOzGhREbTn14ckHdTTjzQkGXTihGM2vBEQa3Pc91kHPy2CEjsth3o2MDhUoiAiDrnij/JxzKbdIQaDQIunKInjGBwTLJCTQmy6XaFckWoRE9IwAVGqTE7MaG6cn9E+HmmsNr4IiXL1dLLlnwEU4PSxtfTQkCo7jqF1YnQIsLx8F0Eg3C4QCLFVnG7mYcnqF7OwHMP4r/FRkm4clKsmYfaaW+VVd8Tr4J3D6Kwysmb92OlVnUUDvtw0clm0m52IaaUYe534gJo7pYz9TXufH83LR5vSK6Y9B3BTDKEo2D1vUJybCdpxHRZWN2MX+p/jj/qXQzc7F8WAd72/Kq0E6rrk0PcU94S9g49VwZNh7Tw6LO8PuTO40dIxvdmcfIeak4dxI2iskrndjQGj41Voi9IJ/EeionVsx24BStoIB9uJKh9m7vYaM2iaSL1d1jXnfTwUrN1aUsk4fXw/BKxPBV3Oc43cbq0xjWCzRbwRxdbW6TIcpoLJWG4pGJ18F5XpLjYCKnVIe8g0BsnYPR96Ym1KIn2sBFaJkSHmuhmg7guQaoi6HMAFQE3G8k0Oifl0PcuaD0h/zgiJ2RoaKiyTEc2t0vEaJGH1PciI5urSlkIutrdDFcPH5I8Noe9ESJXEGgslxsBFTqm8RqnoPRHj5oiZfIQaAp8RDkuaXUrrboiLmbITxTr2ACoF1zs1HeF1yaFETEbiTQ6JcrcoqLJuH0h4pzEaeKIih62t0JurpZFhtShiuCIlRDMKm6TK4g0FglYbTx+QTeI1RE6xgIqdUroW8kIfRCWiL//Z" alt="SQL">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">
+                            <ol type="a">
+                                <li>Oracle</li>
+                                <li>MySQL</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.grapheverywhere.com/wp-content/uploads/2019/06/bases-de-datos-nosql-1080x634.jpg" alt="NoSQL">
+                        <div class="card-body">
+                            <h5 class="card-title">NoSQL</h5>
+                            <p class="card-text">
+                            <ol>
+                                    <ol type="a">
+                                        <li>Redis</li>
+                                        <li>Mongo DB</li>
+                                        <li>Firebase</li>
+                                    </ol>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+        <div id="panel_contacto" class="panel">
+            
+            <p>Contacto</p>
+
+            <p>manuelbelmonteoliva@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <script src="js/controlador.js"> </script>
+    <script src="js/index.js"> </script>
+</body>
+
+</html>

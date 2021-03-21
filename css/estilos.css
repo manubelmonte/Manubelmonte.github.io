@@ -1,0 +1,7 @@
+body {background-color: #b7d7e8;}
+
+div.card>img {
+    background-color: dimgray;
+    padding: 0.4rem;
+}
+
